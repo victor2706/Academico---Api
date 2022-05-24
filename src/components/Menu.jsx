@@ -6,7 +6,7 @@ const Menu = () => {
   return (
     <div>
 
-      <Navbar bg="dark" variant="dark" className="mb-3">
+      <Navbar bg="warning" variant="light" className="mb-3">
         <Container>
           <Navbar.Brand href="#home">Acadêmico</Navbar.Brand>
           <Nav className="me-auto">
