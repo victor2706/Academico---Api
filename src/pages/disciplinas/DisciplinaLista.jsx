@@ -26,7 +26,7 @@ const DisciplinasLista = () => {
     <div>
       <h1><p class="text-center">Disciplinas</p></h1>
 
-      <Link className='btn btn-info mb-3' to={'/disciplinas/create'}><FaPlus /> Novo</Link>
+      <Link className='btn btn-dark mb-3' to={'/disciplinas/create'}><FaPlus /> Novo</Link>
 
       <Table striped bordered hover>
         <thead>
