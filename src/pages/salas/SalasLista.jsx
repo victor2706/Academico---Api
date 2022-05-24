@@ -24,7 +24,7 @@ const SalasLista = () => {
 
   return (
     <div>
-      <h1>Salas</h1>
+      <h1><p class="text-center">Salas</p></h1>
 
       <Link className='btn btn-info mb-3' to={'/salas/create'}><FaPlus /> Novo</Link>
 

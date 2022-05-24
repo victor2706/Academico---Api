@@ -24,7 +24,7 @@ const SemestresLista = () => {
 
   return (
     <div>
-      <h1>Semestres</h1>
+      <h1><p class="text-center">Semestres</p></h1>
 
       <Link className='btn btn-info mb-3' to={'/semestres/create'}><FaPlus /> Novo</Link>
 

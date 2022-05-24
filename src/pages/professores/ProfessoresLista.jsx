@@ -24,7 +24,7 @@ const ProfessoresLista = () => {
 
   return (
     <div>
-      <h1>Professores</h1>
+      <h1><p class="text-center">Professores</p></h1>
 
       <Link className='btn btn-info mb-3' to={'/professores/create'}><FaPlus /> Novo</Link>
 

@@ -24,7 +24,7 @@ const DisciplinasLista = () => {
 
   return (
     <div>
-      <h1>Disciplinas</h1>
+      <h1><p class="text-center">Disciplinas</p></h1>
 
       <Link className='btn btn-info mb-3' to={'/disciplinas/create'}><FaPlus /> Novo</Link>
 
